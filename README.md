@@ -36,15 +36,15 @@ This project builds a Retrieval-Augmented Generation (RAG) pipeline using the LL
 ## Pulled LLaMA 3.2 Model (8B) in Container
 
 - Pulled model inside container:
-```bash
+    ```bash
 docker exec -it ollama ollama pull llama3.2
 
 - Verified downloaded model
-```bash
+    ```bash
 docker exec -it ollama ollama list
 
 - Run test prompt
-```bash
+    ```bash
 docker exec -it ollama ollama run llama3.2
 
 
